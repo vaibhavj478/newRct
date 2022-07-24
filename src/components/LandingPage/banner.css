@@ -1,0 +1,98 @@
+
+.containerBanner{
+margin: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+
+
+}
+
+
+.bannerSlides{
+
+    margin: auto;
+    width: 90%;
+}
+
+
+.bannerSlides > div{
+
+    position: relative;
+
+   
+    height: 300px;
+    z-index: 99999;
+    background:red ;
+    animation : ease-in-out slide 0.3s both ;
+    animation-delay: 2.7s ;
+
+}
+
+.bannerSlides::after{
+
+    content: "a";
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    z-index: 100000;
+    right: -42px;
+   bottom: -231px;
+
+    /* border: 1px solid black; */
+
+}
+.bannerSlides::before{
+
+    content: "b";
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    z-index: 100000;
+    /* border: 1px solid black; */
+    left: -43px;
+}
+
+
+@keyframes slide{
+
+    5%{ left: -2%;}
+    10%{ left: -7%;}
+    15%{ left: -14%;}
+    20%{ left: -24%;}
+    25%{ left: -32%;}
+    30%{ left: -38%;}
+    35%{ left: -44%;}
+    40%{ left: -50%;}
+    45%{ left: -56%;}
+    50%{ left: -62%;}
+    55%{ left: -68%;  }
+    60%{ left: -74%;  }
+    65%{ left: -80%;  }
+    70%{ left: -86%; }
+    75%{ left: -94%; }
+    80%{ left: -100%; }
+    85%{ right: 2%; }
+    90%{ right: 7%; }
+    95%{ right: 14%; }
+    100%{ right: 21%;}
+}
+
+
+
+.bannerLeftNavigation{
+
+    position: relative;
+    float: left;
+    top : -10rem;
+    z-index: 100001;
+
+}
+.bannerRightNavigation{
+
+    position: relative;
+    float: right;
+    top : -10rem;
+    z-index: 100001;
+}

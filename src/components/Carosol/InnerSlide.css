@@ -1,0 +1,54 @@
+
+
+.innerSlide{
+    flex: 1;
+
+    margin-bottom: 2rem;
+}
+
+
+.innerImg{
+
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+
+.innerHead{
+    
+    margin: 0.5rem 0;
+    font-size: medium;
+    font-weight: 300;
+    
+    
+}
+
+.innerPara{
+    
+    margin: 0.5rem 0;
+    font-size: small;
+    font-weight: 150;
+}
+
+
+/* .innerCategory{
+
+    border-bottom: 1px solid black;
+    padding: 0.2rem;
+} */
+
+.innerCategory{
+
+    border-bottom: 1px solid rgb(51,102,187);
+    color: rgb(51,102,187);
+    padding: 0.2rem;
+font-size: smaller;
+    margin-right: 0.25rem;
+}
+
+/* .innerCategory > span{
+
+    
+    color: rgb(51,102,187);
+   
+} */

@@ -1,0 +1,123 @@
+
+
+.lacontainerBanner{
+    margin: 1rem auto 3.5rem;
+        width: 100%;
+    }
+    
+    
+    .labannerSlides{
+        margin: auto;
+        width: 100%;
+    }
+    
+    
+    .labannerSlides > div{
+    
+        position: relative;
+        height: auto;
+        z-index: 99999;
+       
+        animation : ease-in-out smfade 1s both ;
+        animation-delay: 2s ;
+    
+    } 
+    
+   
+
+    .lainnerSlide > img{
+     
+        height: auto;
+        margin: 0;
+        padding: 0;
+       
+    }
+    .lainnerSlide > h3{
+       position: relative;
+       /* top: 0; */
+       bottom: 3rem;
+       margin: 1rem 0;
+       /* padding: 1rem; */
+       font-size: xx-large;
+       font-weight: 200;
+    }
+
+    .lainnerSlide div{
+        position: relative;
+        bottom: 2rem;
+    }
+ 
+    .lainnerSlide div>span{
+
+       color: rgb(6,69,173);
+       text-decoration: underline;
+       margin: 1rem 0;
+       padding: 1rem;
+       font-size: larger;
+       font-weight: 600;
+    
+    } 
+
+  
+
+    
+    @keyframes smfade{
+        100%{ visibility: hidden;}
+    }
+    
+    
+    
+    .labannerLeftNavigation{
+    
+     
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        top : -25rem;
+margin: 0.5rem;
+        color: rgba(0, 0, 0, 0.733);
+        z-index: 100001;
+        /* border: 1px solid red ; */
+        padding: 1.5rem 0.25rem ;
+        
+    }
+    .labannerRightNavigation{
+        color: rgba(0, 0, 0, 0.733);
+        
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        float: right;
+        top : -25rem;
+        margin: 0.5rem;
+        z-index: 100001;
+        /* border: 1px solid red ; */
+        padding: 1.5rem 0 ;
+        
+
+    }
+
+    .labannerRightNavigation:hover{
+        color: rgba(255, 255, 255, 0.950);
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.781);
+    }
+    .labannerLeftNavigation:hover{
+    
+       color: rgba(255, 255, 255, 0.950);
+       background-color: rgba(0, 0, 0, 0.781);
+        border-radius: 5px;
+    
+    }
+
+    .displayL {
+        display: none;
+    }
+    .displayR {
+        display: none;
+    }

@@ -1,0 +1,47 @@
+
+
+
+.boxCarosol{
+
+
+    margin: 1rem 0;
+    /* border: 1px solid blue; */
+}
+
+.boxCarosol > h1{
+
+margin: 1.5rem auto;
+width: 50%;
+text-align: center;
+   
+}
+
+
+.containerCarosol{
+
+
+
+    width: 100%;
+}
+
+.slideCarosol{
+
+    display: flex;
+
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+
+    font-size: small;
+    padding: 0.5rem 0;
+    font-weight: 00;
+
+
+}
+
+
+.paginationCarosol{
+
+
+    /* border: 2px solid red; */
+}

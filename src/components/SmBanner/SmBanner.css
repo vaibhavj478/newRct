@@ -1,0 +1,83 @@
+
+.smcontainerBanner{
+    margin: 1rem auto 3.5rem;
+        width: 100%;
+       
+        
+        /* border: 1px solid red; */
+    }
+    
+    
+    .smbannerSlides{
+        margin: auto;
+        width: 100%;
+    }
+    
+    
+    .smbannerSlides > div{
+    
+        position: relative;
+        height: auto;
+        z-index: 99999;
+        /* border: 1px solid red; */
+        animation : ease-in-out smfade 1s both ;
+        animation-delay: 2s ;
+    
+    }    
+    
+    @keyframes smfade{
+        100%{ visibility: hidden;}
+    }
+    
+    
+    
+    .smbannerLeftNavigation{
+    
+     
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        top : -7rem;
+        color: black;
+        z-index: 100001;
+        /* border: 1px solid red ; */
+        padding: 1rem 0;
+    
+    }
+    .smbannerRightNavigation{
+        color: black;
+        
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        float: right;
+        top : -7rem;
+        z-index: 100001;
+        /* border: 1px solid red ; */
+        padding: 1rem 0;
+
+        
+
+    }
+
+    .smbannerRightNavigation:hover{
+        background-color: rgba(109, 107, 107, 0.37);
+       
+    }
+    .smbannerLeftNavigation:hover{
+    
+        background-color:  rgba(109, 107, 107, 0.37);
+    
+    }
+
+    .displayL {
+        display: none;
+    }
+    .displayR {
+        display: none;
+    }
